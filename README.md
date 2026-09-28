@@ -12,9 +12,9 @@ The analysis was conducted using \*\*MySQL\*\* for data preparation and analysis
 
 Particular attention is given to changes in the number of recorded incidents over time and to differences between the frequency of recorded incidents and the total estimated value of commodities.
 
-### 
+###
 
-1. ### How did the number of smuggling records change over time?
+## 1.  How did the number of smuggling records change over time?
 
 
 
@@ -36,11 +36,11 @@ The analysis was performed using the 'vw\_smuggling\_cases\_monthly'and '04\_num
 
 
 
-!\[chart](images/req1-smuggling-cases-monthly-march.png)
+![chart](images/req1-smuggling-cases-monthly-march.png)
 
 
 
-!\[chart](images/req1-smuggling-cases-monthly-april.png)
+![chart](images/req1-smuggling-cases-monthly-april.png)
 
 
 
@@ -48,15 +48,15 @@ In March and April 2025, there is a sudden increase in records compared to March
 
 
 
-!\[chart](images/req1-commodities-march-april.png)
+![chart](images/req1-commodities-march-april.png)
 
 
 
-!\[chart](images/req1-march-weapon-type.png)
+![chart](images/req1-march-weapon-type.png)
 
 
 
-!\[chart](images/req1-march-ammunition-type.png)
+![chart](images/req1-march-ammunition-type.png)
 
 
 
@@ -64,7 +64,7 @@ The increase in March (across all locations) was mostly associated with an incre
 
 
 
-!\[chart](images/req1-march-location-change.png)
+![chart](images/req1-march-location-change.png)
 
 
 
@@ -72,7 +72,7 @@ The highest increase in records in March 2025 was reported in 'kraj'('country') 
 
 
 
-!\[chart](images/req1-march-commodity-kraj-change.png)
+![chart](images/req1-march-commodity-kraj-change.png)
 
 
 
@@ -80,11 +80,11 @@ In the 'kraj' ('country') location, the largest increase in number of records wa
 
 
 
-!\[chart](images/req1-march-broń-inna.png)
+![chart](images/req1-march-broń-inna.png)
 
 
 
-!\[chart](images/req1-march-sum-of-records-by-timestamps.png)
+![chart](images/req1-march-sum-of-records-by-timestamps.png)
 
 
 
@@ -96,7 +96,7 @@ The results indicate that a large part of the March 2025 increase in number of r
 
 
 
-#### 2\. Which Border Guard units recorded the highest number of records?
+## 2. Which Border Guard units recorded the highest number of records?
 
 
 
@@ -112,7 +112,7 @@ The analysis was performed using the '05\_number\_of\_records\_per\_border\_guar
 
 
 
-!\[chart](images/req2-number-of-records-per-BGu.png)
+![chart](images/req2-number-of-records-per-BGu.png)
 
 
 
@@ -124,7 +124,7 @@ The number of records in Nadbużański Border Guard Unit was more than twice as 
 
 
 
-#### 3\. What types of commodities are most frequently smuggled?
+## 3. What types of commodities are most frequently smuggled?
 
 
 
@@ -140,7 +140,7 @@ The analysis was performed using the '06\_most\_frequently\_smuggled\_commoditie
 
 
 
-!\[chart](images/req3-most-frequently-smuggled.png)
+![chart](images/req3-most-frequently-smuggled.png)
 
 
 
@@ -152,7 +152,7 @@ The data includes general categories like 'other' and 'Other', which may refer t
 
 
 
-#### 4\. Which types of smuggled commodities represent the highest estimated value?
+## 4. Which types of smuggled commodities represent the highest estimated value?
 
 
 
@@ -170,7 +170,7 @@ The analysis was performed using the '07\_the\_highest\_estimated\_value.sql'.
 
 
 
-!\[chart](images/req4-total-estimated-value-by-category-and-type.png)
+![chart](images/req4-total-estimated-value-by-category-and-type.png)
 
 *For visualisation purposes, the chart has been limited to the top 7 records*
 
@@ -192,7 +192,7 @@ The summary of the highest values of seized commodities looks different when ana
 
 
 
-!\[chart](images/req4-total-estimated-value-by-category.png)
+![chart](images/req4-total-estimated-value-by-category.png)
 
 *To make the chart easier to read, the top 10 results are displayed*
 
@@ -206,7 +206,7 @@ The results also show that the frequency of occurrence of a particular product d
 
 
 
-!\[chart](images/req4-top-10-records-by-value.png)
+![chart](images/req4-top-10-records-by-value.png)
 
 
 
@@ -214,7 +214,7 @@ An additional review revealed a significant concentration of values in individua
 
 
 
-#### 5\. How do smuggling directions differ in terms of frequency and value?
+## 5. How do smuggling directions differ in terms of frequency and value?
 
 
 
@@ -230,7 +230,7 @@ The analysis was performed using the '08\_differences\_in\_smuggling\_routes.sql
 
 
 
-!\[chart](images/req5-differences-of-smuggling-routes.png)
+![chart](images/req5-differences-of-smuggling-routes.png)
 
 
 
@@ -264,7 +264,7 @@ For the 'z RP' direction, 'przejście' location accounts for 88.69% of the recor
 
 
 
-#### 6\. Which border crossings recorded the highest number and value of smuggling records?
+## 6. Which border crossings recorded the highest number and value of smuggling records?
 
 
 
@@ -280,7 +280,7 @@ The analysis was performed using the '09\_number\_and\_and\_value\_of\_records\_
 
 
 
-!\[chart](images/req6-border-crossing-by-the-nr-of-rec-and-value.png)
+![chart](images/req6-border-crossing-by-the-nr-of-rec-and-value.png)
 
 
 
@@ -304,7 +304,7 @@ This means that the number of registered records does not directly reflect the t
 
 
 
-#### 7\. Are there any temporal patterns in smuggling detections?
+## 7. Are there any temporal patterns in smuggling detections?
 
 
 
@@ -322,7 +322,7 @@ The analysis was performed using the '10\_the\_temporal\_patterns\_in\_smuggling
 
 
 
-!\[chart](images/req7-average-number-of-rec-per-days-and-years.png)
+![chart](images/req7-average-number-of-rec-per-days-and-years.png)
 
 
 
@@ -338,7 +338,7 @@ A recurring pattern related to the day of the week is evident in the analyzed da
 
 
 
-!\[chart](images/req7-avg-number-of-rec-by-hours.png)
+![chart](images/req7-avg-number-of-rec-by-hours.png)
 
 
 
