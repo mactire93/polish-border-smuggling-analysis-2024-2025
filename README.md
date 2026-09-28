@@ -6,7 +6,7 @@ This project presents an analysis of data on recorded smuggling incidents at the
 
 
 
-The analysis was conducted using \*\*MySQL\*\* for data preparation and analysis and \*\*Power BI\*\* for data visualization. The project covers the process from data import and profiling through SQL-based analysis to the visual presentation and interpretation of the results.
+The analysis was conducted using MySQL for data preparation and analysis and Power BI for data visualization. The project covers the process from data import and profiling through SQL-based analysis to the visual presentation and interpretation of the results.
 
 
 
